@@ -72,9 +72,11 @@ header li {
 #main_body {
     background: url(../images/redox_01.png);
     padding-top: 30px;
+    height: 300px;
 }
 
 article {
+    float: left;
     background: #ffffff;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -104,14 +106,22 @@ article p {
 #side_bar {
     float: right;
     background: #ffffff;
-    padding-top: 30px;
+    padding: 30px 10px;
     color: #4aaaa5;
     height: auto;
     width: 270px;
 }
 
-
 #side_bar h3 {
-    padding: 10px 20px;
+    margin: 10px 45px;
+    padding: 10px;
     border-bottom: #cccccc 2px solid;
+}
+
+.img_holder {
+    margin: 20px 45px;
+}
+
+#side_bar img {
+    margin: 0px 0px;
 }
