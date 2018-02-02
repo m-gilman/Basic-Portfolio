@@ -91,6 +91,7 @@ article {
     color: #777777;
     height: auto;
     width: 650px;
+    overflow: hidden;
 }
 
 article h2 {
@@ -180,12 +181,7 @@ footer p {
     margin: 20px;
 }
 
-.contact_name {
-    margin: 0 20px;
-    width: 580px;
-}
-
-.contact_email {
+.contact_name, .contact_email {
     margin: 0 20px;
     width: 580px;
 }
@@ -204,4 +200,17 @@ footer p {
     color: #ffffff;
     margin: 10px;
     border: none;
+}
+
+button:hover { 
+    background-color: purple; 
+}
+
+a:hover {
+    background: purple;
+    color: #ffffff;
+}
+
+h4:hover {
+    background-color: #FF4C4C;
 }
