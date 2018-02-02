@@ -53,7 +53,7 @@ header {
     border-bottom: #cccccc 2px solid;
 }
 
-.name {
+.my_name {
     float: left;
     background: #4aaaa5;
     color: #ffffff;
@@ -175,3 +175,33 @@ footer p {
     
 }
 
+/* CONTACT PAGE */
+.contact {
+    margin: 20px;
+}
+
+.contact_name {
+    margin: 0 20px;
+    width: 580px;
+}
+
+.contact_email {
+    margin: 0 20px;
+    width: 580px;
+}
+
+.contact_message {
+    margin: 0 20px;
+    width: 580px;
+    height: 100px;
+}
+
+.submit {
+    background: #4aaaa5;
+    line-height: 30px;
+    width: 70px;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 10px;
+    border: none;
+}
